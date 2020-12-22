@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tree of Stuff</title>
+    <link rel="stylesheet" href='styles.css'>
+</head>
+<body>
+
+    <header>
+        <div class="overlay">
+            <h1>Amazon Product Categories Icicle</h1>
+            <form id="search-form">
+                <div class="search-field">
+                    <input id="category" type="text" placeholder="Enter Category Name">
+                    <span id="search-button">
+                        <button>Find</button>
+                    </span>
+                </div>
+            </form>
+        </div>
+    </header>
+
+    <main>
+        <div class="context"></div>
+        <div class="canvas"></div>
+    </main>
+
+    <script src="https://d3js.org/d3.v5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.min.js"></script>
+    <script src="datavis.js"></script>
+
+</body>
+</html>
