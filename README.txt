@@ -19,3 +19,6 @@ Running on Mozilla Firefox also an option
   - close and reopen main.html using Firefox
 
 *All files are meant to be at the same level of the file structure. No files used in this application is nested in any subfolders.
+
+Program is initially set to run using the "PetSupplies.csv" to save memory. It is possible to use the full data in "all-nodes.csv"
+to run this program. Changes can be made in "datavis.js".
