@@ -10,6 +10,8 @@ Easiest to run from VSCode if you install the extension Live Server from the VSC
 - Once installed, open up main.html, right click and select "Open with Live Server"
 - Internet connection probably needed because this uses d3 sources which need to be reached
 
+
+***No Longer Works!***
 Running on Mozilla Firefox also an option
 - select the main.html file and select open with firefox
 - If tree does not load, check the inspector (ctrl+shift+I)
